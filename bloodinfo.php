@@ -25,11 +25,6 @@
             <div class="card-header title">Add blood group available in your hospital</div>
         <div class="card-body">
         <form action="file/infoAdd.php" method="post">
-          <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" title="click to see">Term & conditions. </a><br>
-          <div class="collapse" id="collapseExample">
-          If you have a blood sample tested by  your doctor’s, nurse, or trained phlebotomist , at a pathology collection centre, clinic or hospital. Blood samples are most commonly taken from the inside of the elbow where the veins are usually closer to the surface. If before the needle is inserted, the area had been cleaned with an antiseptic cloth and blood sample is transferred into tubes containing the correct preservatives then add your blood group available in your hospital to your blood bank.<br><br>
-        </div>
-          <input type="checkbox" name="condition" value="agree" required> Agree<br><br>
           <select class="form-control" name="bg" required="">
                 <option disabled selected>Blood Group</option>
                 <option>A-</option>

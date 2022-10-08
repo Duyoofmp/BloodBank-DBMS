@@ -1,7 +1,7 @@
-<nav class="navbar navbar-inverse btn btn-success">
+<nav class="navbar navbar-inverse btn btn-danger">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">Team Hackers Blood Donation</a>
+      <a class="navbar-brand text-white row"  href="index.php">Blood Management</a>
     </div>
     <?php if (isset($_SESSION['hid'])) { ?>
     <ul class="nav navbar-nav">
@@ -27,12 +27,12 @@
       <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
     </ul>
     <?php }  else { ?>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav color-black">
       <li class="active"><a href="abs.php">Available Blood Samples</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="register.php"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
-      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li class="bg-white p-2 rounded m-1"><a href="register.php"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+      <li class="bg-white p-2 rounded m-1"><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
     <?php } ?>
   </div>
